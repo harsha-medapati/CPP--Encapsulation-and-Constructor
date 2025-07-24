@@ -1,6 +1,4 @@
 //Problem 4: Library Book Management
-//Method: issueBook() reduces copy by 1 if available
-//Method: addCopies(int n)
 #include<bits/stdc++.h>
 using namespace std;
 class book
@@ -69,6 +67,6 @@ int main()
 
     b1.issuecopies();
     b1.issuecopies();
-    b1.addcopies(3); 
+    b1.addcopies(3); //Add any number of books
     b1.issuecopies();
 }
